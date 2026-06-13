@@ -6,6 +6,6 @@ except:
 
 '''
 But if we can handle our program with different 
-approch we should in our case we can use
+approch we should (in our case we can) use
 conditional insted of Exception!
 '''

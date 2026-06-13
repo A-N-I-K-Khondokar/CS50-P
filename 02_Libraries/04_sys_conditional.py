@@ -10,5 +10,5 @@ print(f"Hello,{sys.argv[1]}")
 
 '''
 sys.argv[0] is here the "04_sys_conditional"
-this is the first argumnet!
+this is the first argumnet! the name of the program
 '''

@@ -21,6 +21,7 @@ keyword:
 1. import
 2. from
 """
+
 ''' from random import choice
  store=choice(["Heads","Tails"])
  print(store)  '''
