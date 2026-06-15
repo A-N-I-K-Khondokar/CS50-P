@@ -5,7 +5,7 @@ import json # comes with python
 if len(sys.argv)!=2:
     sys.exit()
 
-response=requests.get("https://itunes.apple.com/search?entity=song&limit=50&term="+sys.argv[1])
+response=requests.get("https://itunes.apple.com/search?entity=song&limit=50&term="+sys.argv[1]) #'weezer' as argument
 #print(json.dumps(response.json(),indent=2))
 
 o =response.json() # o is a object
@@ -24,6 +24,7 @@ information form the apple itunes API
 which can access the server's data in this case my python program will patents to be 
 a browser.
 7.we need to know API formet to manipulate or get something form the apple API
+8.You NEED Internet connection!!!!!!
 
 
 
