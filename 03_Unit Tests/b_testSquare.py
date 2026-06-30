@@ -1,4 +1,4 @@
-from square import square 
+from a_square import square 
 
 def test_square():
     if square(2)!=4:
